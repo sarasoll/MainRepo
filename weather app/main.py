@@ -4,3 +4,5 @@ city = input('Where are you?!!...  ')
 url = f"{api}{city}"
 send = requests.get(url).json()
 print(send['weather'][0]['main'])
+
+
