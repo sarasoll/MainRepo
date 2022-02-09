@@ -7,8 +7,19 @@ namespace C__code
     {
         static void Main(string[] args)
         {
-            var s="Hey Soll!";
-            Console.WriteLine(s);
+            var age = 170;
+            if (age >= 90)
+            {
+                Console.WriteLine("Old is GOLD");
+            }
+            else if (age <= 99)
+            {
+                Console.WriteLine("too young");
+            }
+            else
+            {
+                Console.WriteLine("Just a BABY");
+            }
         }
     }
 }
