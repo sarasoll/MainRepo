@@ -1,0 +1,16 @@
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\bin\Debug\net5.0\C# code.exe
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\bin\Debug\net5.0\C# code.deps.json
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\bin\Debug\net5.0\C# code.runtimeconfig.json
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\bin\Debug\net5.0\C# code.runtimeconfig.dev.json
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\bin\Debug\net5.0\C# code.dll
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\bin\Debug\net5.0\ref\C# code.dll
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\bin\Debug\net5.0\C# code.pdb
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\obj\Debug\net5.0\C# code.csproj.AssemblyReference.cache
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\obj\Debug\net5.0\C# code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\obj\Debug\net5.0\C# code.AssemblyInfoInputs.cache
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\obj\Debug\net5.0\C# code.AssemblyInfo.cs
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\obj\Debug\net5.0\C# code.csproj.CoreCompileInputs.cache
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\obj\Debug\net5.0\C# code.dll
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\obj\Debug\net5.0\ref\C# code.dll
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\obj\Debug\net5.0\C# code.pdb
+C:\Users\jack-\OneDrive\Desktop\sollRepo\sollgithub\sollgithub\C# code\obj\Debug\net5.0\C# code.genruntimeconfig.cache

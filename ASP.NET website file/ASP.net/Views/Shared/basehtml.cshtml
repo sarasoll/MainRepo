@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Templet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="container">
+            <li><a href="/home/index">Home</a></li>
+            <li><a href="/home2/indexiii">Home2</a></li>
+            <li><a href="/home3/index">Home3</a></li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        @RenderBody()
+
+        <footer>
+            <ul id="copyright">
+
+                <li style="text-align: center">
+                    Copyright &copy; 2013-
+                    <script>document.write(new Date().getFullYear())</script><span> Designed by: 𝒮𝑜𝓁𝓁</span>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

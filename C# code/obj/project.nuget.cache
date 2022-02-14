@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "u4SLtZ+1GRVSAU2AZRPqGVTi84CRJ+TUIg7Z2t1n/EOVzXyvJ2+en8zqBbQdxQWgTGyoA34PagJLCYyG74xL4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jack-\\OneDrive\\Desktop\\sollRepo\\sollgithub\\sollgithub\\C# code\\C# code.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jack-\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\jack-\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

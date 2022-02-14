@@ -1,0 +1,44 @@
+{% extends 'base.html'%} {% block body %}
+<div>
+  <h1>Products Page</h1>
+  <h3>Products Data</h3>
+  <hr>
+<a href="/newproduct"><strong> Go to New Products</strong></a>
+
+</div>
+ <div >
+          <form action="#" method="post" class="navbar-form" role="search">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                name="pname"
+                id="pname"
+              />
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+<table class="table">
+  <th>Product ID</th>
+  <th>Product Name</th>
+  <th>Unit Price</th>
+  <th>Unit in Stock</th>
+  <th></th>
+  {% for element in products %}
+  <tr>
+    <td>{{element[0]}}</td>
+    <td>{{element[1]}}</td>
+    <td>{{element[5]}}</td>
+    <td>{{element[6]}}</td>
+    <td><a href="/editproduct/{{element[0]}}">Edit</a> | <a href="/deleteproduct/{{element[0]}}">Delete</a></td>
+  </tr>
+
+  {%endfor %}
+</table>
+{% endblock %}

@@ -3,3 +3,4 @@ url="vscode://vscode.github-authentication/did-authenticate?windowid=1&code=9720
 link=pyshorteners.Shortener()
 sh=link.tinyurl.short(url)
 print(sh)
+

@@ -1,5 +1,6 @@
 import requests
 res=requests.get("https://ipinfo.io/")
 data=res.json()
-print("ip= "+data['ip'])
-print('from= '+data['from'])
+print("ip= "+data[' Ur ip... '])
+print('from= '+data['U R from... '])
+
