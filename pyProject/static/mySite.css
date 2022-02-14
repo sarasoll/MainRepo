@@ -1,0 +1,11 @@
+body{ background-color:#d3d0a8;
+
+}
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 300xp;
+  padding: 5px; /* firefox bug fix */
+  width: 100xp;
+}

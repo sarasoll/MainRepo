@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>E-Shop</title>
+    <link
+      rel="shortcut icon"
+      href=" https://favicon-generator.org/favicon-generator/htdocs/favicons/2021-11-07/125e874f9fa34deac581248a73a4c056.ico.png"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="{{url_for('static',filename='mySite.css')}}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="{{url_for('static',filename='myscipt.js')}}"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light" style="background-color: #819f7f">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"
+            ><img src="/static/i10.png" width="80" height="50" alt=""
+          /></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a style="color: #2d4659" href="/">Home</a></li>
+          <li><a style="color: #2d4659" href="/contact">Contact</a></li>
+          <li><a style="color: #2d4659" href="/about">About</a></li>
+          <li class="dropdown">
+            <a
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              style="color: #2d4659"
+              href="/"
+              >Products Info</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a style="color: #2d4659" href="/products">Products Page</a>
+              </li>
+              <li>
+                <a style="color: #2d4659" href="/newproduct">New Product</a>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h3 style="color: rgb(46, 43, 226)">
+        Building Website by Using Flask / Python
+      </h3>
+      {% block body %} {% endblock %}
+
+      <p style="color: blueviolet">
+        This is an example of building a website using Flask / Python.
+      </p>
+
+      <a href="/"><b>Home Page is here...</b> </a><br />
+      <a href="/about"><b>About Page is here...</b> </a>
+    </div>
+    <div>
+      <footer>
+        <p style="text-align: center; color: rgb(58, 226, 43)">
+          &copy;
+          <script alight="center">
+            document.write(new Date().getFullYear());
+          </script>
+          - SaraSoliman
+        </p>
+      </footer>
+    </div>
+    {% block form %} {% endblock %}
+  </body>
+</html>
