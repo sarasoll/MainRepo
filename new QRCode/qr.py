@@ -1,4 +1,4 @@
-import os 
+import os
 import qrcode
 
 img = qrcode.make("https://github.com/sarasoll")
